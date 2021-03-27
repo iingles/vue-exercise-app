@@ -37,7 +37,7 @@ export default {
 
   methods: {
     async getExercises(){
-      const response = await axios.get('http://localhost:8080/exerciseData.json')
+      const response = await axios.get('https://goofy-wiles-652986.netlify.app/exerciseData.json')
 
       const resData = await response.data
 

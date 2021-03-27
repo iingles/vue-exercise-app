@@ -38,7 +38,6 @@
 
 <script>
 import LineChart from '@/components/charts/LineChart'
-import moment from 'moment'
 
 export default {
     components: {
